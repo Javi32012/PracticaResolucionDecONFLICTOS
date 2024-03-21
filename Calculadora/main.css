@@ -1,0 +1,11 @@
+* {
+    padding: auto;
+    margin: 1;
+    background-color: aquamarine;
+}
+
+input {
+    color: white;
+    background-color: black;
+    border-radius: 5px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Calculadora</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body class="pagina">
+    <h1>Calculadora X</h1>
+    <table>
+        <tr>
+            <td colspan="4">
+                <input type="number" id="resultado" class="resultado" name="resultado" disabled value="0.0">
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <br>
+                <label>Valor Uno:</label><input type="number" id="valorUno" class="valorUno" name="valorUno">
+            </td>
+        </tr>
+        <td colspan="4">
+            <br>
+            <label>Valor Dos:</label><input type="number" id="valorDos" class="valorDos" name="valorDos">
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="+" onclick="fun_Suma();">
+            </td>
+            <td>
+                <input type="button" value="-" onclick="fun_Resta();">
+            </td>
+            <td>
+                <input type="button" value="*" onclick="fun_Multiplicacion();">
+            </td>
+            <td>
+                <input type="button" value="/" onclick="fun_Division();">
+            </td>
+        </tr>
+    </table>
+    <img src="Foto/descarga (1).jpeg" alt="img del tecnologico" width="350" height="163" id="helpIcon" onmouseover="fun_Suma();">
+    
+</body>
+
+</html>
